@@ -1,5 +1,4 @@
         let n= prompt("Enter no of paris: ");
-    //  ArrayList<Integer> arr=new ArrayList<Integer>();
     const arr = [];
         for(let i=0;i<=n;i++){
             alert("Enter number of positives and negatives: ");
@@ -8,9 +7,8 @@
             arr.push(parseInt(x));
             arr.push(parseInt(y));
         }
-        //  ArrayList<Double> gini = new ArrayList<>();
-        const gini = []
 
+        const gini = []
                      for(let i=0;i<arr.length;i=i+2){
                          let u=arr[i]+arr[i+1]
                          let y=arr[i]/u;
@@ -22,10 +20,9 @@
         document.write("<div class = 'container'><h1>gini values are: </h2> ");
 
  for (let i = 0; i < gini.length; i++) {
-            document.write(gini[i] + " ");
+            document.write(gini[i] + ", ");
         }
         
-                //  ArrayList<Double> ie1 = new ArrayList<>();
                 const ie1 = []
 
                   let j=1;
